@@ -34,7 +34,9 @@ TODO: Use the let keyword to declare a variable called c and assign it the sum o
 */
 
 // * Add your code BELOW here
-
+const a = 5;
+const b = 7;
+let c = a + b;
 // * Don't mess with the test code below here!
 
 test('arithmetic sum', () => {
@@ -70,7 +72,7 @@ TODO: Using the Math object, assign a random number to a variable called rnd.
 */
 
 // * Add your code BELOW here
-
+var rnd = Math.random();
 // * Don't mess with the test code below here!
 
 test('rnd', () => {
@@ -101,7 +103,7 @@ TODO: Make sure to round down the value to the nearest integer.
 */
 
 // * Add your code BELOW here
-
+var randomInt = Math.floor(Math.random() * 5);
 // * Don't mess with the test code below here!
 
 test('randomInt', () => {
@@ -126,7 +128,8 @@ TODO: assign the result to a variable called numRounded
 */
 
 // * Add your code BELOW here
-
+const num = 17.89;
+var numRounded = Math.floor(num);
 // * Don't mess with the test code below here!
 
 test('numRounded', () => {
@@ -162,7 +165,8 @@ TODO: it the value of parseInt() applied to orderBagels
 */
 
 // * Add your code BELOW here
-
+let orderBagels = "13 is a Baker's Dozen";
+const bakersDozen = parseInt(orderBagels);
 // * Don't mess with the test code below here!
 
 test('bakersDozen', () => {
@@ -202,7 +206,8 @@ TODO: the value of myPi converted to a string with four decimal places
 */
 
 // * Add your code BELOW here
-
+const myPi = 3.141592653589793;
+const myPiFixed = myPi.toFixed(4);
 // * Don't mess with the test code below here!
 
 test('myPiFixed', () => {
@@ -237,7 +242,7 @@ TODO: using the unary + operator
 */
 
 // * Add your code BELOW here
-
+let sliceOfPi = +myPiFixed;
 // * Don't mess with the test code below here!
 
 test('sliceOfPi', () => {
