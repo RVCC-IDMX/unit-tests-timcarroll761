@@ -48,7 +48,7 @@ TODO: DO NOT assign it a value.
 */
 
 // * Add your code BELOW here
-var myName;
+let myName;
 // * Don't mess with the test code below here!
 
 test('myName', () => {
@@ -160,8 +160,8 @@ TODO: (using the * operator for multiplication).
 */
 
 // * Add your code BELOW here
-var oops;
-var sillyMath;
+let oops;
+let sillyMath;
 sillyMath = oops * 2;
 
 // * Don't mess with the test code below here!
@@ -190,7 +190,7 @@ TODO: In the second line, assign sillyString to 'Hello, ' and concatenate oops t
 */
 
 // * Add your code BELOW here
-var sillyString;
+let sillyString;
 sillyString = 'Hello, ' + oops;
 
 // * Don't mess with the test code below here!

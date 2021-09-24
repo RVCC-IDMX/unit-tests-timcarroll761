@@ -72,7 +72,7 @@ TODO: Using the Math object, assign a random number to a variable called rnd.
 */
 
 // * Add your code BELOW here
-var rnd = Math.random();
+let rnd = Math.random();
 // * Don't mess with the test code below here!
 
 test('rnd', () => {
@@ -103,7 +103,7 @@ TODO: Make sure to round down the value to the nearest integer.
 */
 
 // * Add your code BELOW here
-var randomInt = Math.floor(Math.random() * 5);
+let randomInt = Math.floor(Math.random() * 5);
 // * Don't mess with the test code below here!
 
 test('randomInt', () => {
@@ -129,7 +129,7 @@ TODO: assign the result to a variable called numRounded
 
 // * Add your code BELOW here
 const num = 17.89;
-var numRounded = Math.floor(num);
+let numRounded = Math.floor(num);
 // * Don't mess with the test code below here!
 
 test('numRounded', () => {
